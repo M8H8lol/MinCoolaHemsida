@@ -1,0 +1,178 @@
+/*
+@keyframes some_animation {
+  0% {
+    background-color: green;
+    transform: scale(0.5);
+    transform: rotate(0deg);
+  }
+
+  25% {
+    background-color: red;
+    transform: scale(1);
+  }
+
+  50% {
+    transform: rotate(50deg);
+  }
+
+  100% {
+    background-color: blue;
+    transform: scale(0.5);
+    transform: rotate(360deg);
+  }
+}
+
+main {
+  animation: some_animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+*/
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: lightgreen;
+}
+
+body header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article section {
+  display: flex;
+}
+
+.article-links {
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  flex-wrap: wrap;
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  display: inline-block;
+  color: black;
+  background-color: navy;
+  color: white;
+  text-decoration: none;
+  transition: all 400ms;
+  padding: 10%;
+  border-radius: 10%;
+}
+
+.image-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+/*
+.image-frame img {
+  width: 25%;
+}
+*/
+
+/* Specifiera Zilean */
+/*
+.image-frame img {
+  transition: all 200ms;
+}
+
+.image-frame:hover img {
+  margin-top: 100px;
+  width: 50%;
+}
+
+.image-frame img#Ivern {
+  width: 25%;
+}
+
+.image-frame img#Ivern {
+  transition: all 200ms;
+}
+
+.image-frame img#Ivern:hover {
+  margin-top: 200px;
+  width: 50%;
+}
+*/
+
+nav a:hover {
+  background-color: blue;
+  transition: all 400ms;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/*
+
+<footer>
+      <section class="article-links">
+        <a href="https://leagueoflegends.fandom.com/wiki/Ivern" target="_blank"
+          >Fandom link
+        </a>
+      </section>
+    </footer>
+
+*/
+
+.flexible-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.outerbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  height: 5em;
+  margin: 8px;
+  background-color: transparent;
+}
+
+.innerbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: navy;
+  width: 50%;
+  height: 100%;
+  transition: all 400ms;
+  border-radius: 10%;
+}
+
+.innerbox:hover {
+  width: 100%;
+}
+
+.char-img {
+  min-width: 200px;
+  width: 25%;
+}
+
+.char-img-ivern {
+  width: 10%;
+  min-width: 150px;
+}
