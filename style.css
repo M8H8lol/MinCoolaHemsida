@@ -39,7 +39,7 @@ body {
 
 header {
   width: 100%;
-  background-color: lightgreen;
+  background-color: lightgrey;
 }
 
 body header h1 {
@@ -70,6 +70,7 @@ ul {
 footer section {
   display: flex;
   justify-content: center;
+  font-size: x-large;
 }
 
 nav a {
@@ -178,9 +179,13 @@ nav a:hover {
 .char-img {
   min-width: 200px;
   width: 25%;
+  height: 10%;
+  min-height: 150px;
 }
 
 .char-img-ivern {
   width: 15%;
   min-width: 150px;
+  height: 10%;
+  min-height: 150px;
 }
