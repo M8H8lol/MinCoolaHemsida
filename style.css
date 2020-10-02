@@ -29,6 +29,10 @@ main {
 }
 */
 
+article {
+  font-size: x-large;
+}
+
 body {
   margin: 0;
 }
@@ -77,6 +81,10 @@ nav a {
   transition: all 400ms;
   padding: 10%;
   border-radius: 10%;
+}
+
+footer {
+  padding: 5%;
 }
 
 .image-frame {
